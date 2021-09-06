@@ -13,11 +13,4 @@ public class Task5 {
                 .map(in->Integer.toString(in))
                 .collect(Collectors.toList());
     }
-    public static void main(String[] args) {
-        List<Integer> myList=new ArrayList<Integer>(List.of(1, 2, 3, 4, 5, 6));
-//                new ArrayList<String>(
-//                List.of("8DC3", "4F", "B", "3S", "S3", "A1", "2A3G", "1B"));
-//
-        System.out.println(getSortedAscOddValues(myList));
-    }
 }
