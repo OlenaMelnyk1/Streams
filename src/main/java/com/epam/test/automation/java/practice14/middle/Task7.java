@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 public class Task7 {
 
-//    public static List<Integer> getSortedDifferenceBetweenSubsets(int number, List<Integer> integerList) {
+    public static List<Integer> getSortedDifferenceBetweenSubsets(int number, List<Integer> integerList) {
 //        return Stream.stream().filter(i->(i%2==0))
 //        .forEach(l-> if
 //        integerList.subList(number,integerList.size()).stream()
@@ -57,4 +57,6 @@ public class Task7 {
         System.out.println(getSortedDifferenceBetweenSubsets(number,myList));
     }
 */
+        return null;
+    }
 }
