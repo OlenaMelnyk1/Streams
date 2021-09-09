@@ -8,39 +8,39 @@ import java.util.stream.Stream;
 
 public class Task7 {
 
-    public static List<Integer> getSortedDifferenceBetweenSubsets(int number, List<Integer> integerList) {
-        return Stream.stream().filter(i->(i%2==0))
-        .forEach(l-> if
-        integerList.subList(number,integerList.size()).stream()
-                .filter(k-> (k!=l)));
-        };
-
-     .collect(Collectors.toCollection(ArrayList::new));
-
-        ,integerList.subList(number,integerList.size()).stream())
-        .noneMatch()
-
-
-                .forEach(i-> {
-                    for (int l:integerList.subList(number,integerList.size()))
-                         { if (i==l)
-
-                    }
-                })
-                .collect(Collectors.toList())
-
-
-                .filter(l->
-                    if ()
-
-                    for (i:integerList.stream()
-                            .filter(i->(i%2==0))
-                            .collect(Collectors.toList())){
-                        if l==i
-                    }
-                }
-        if l==
-                        ;);
+//    public static List<Integer> getSortedDifferenceBetweenSubsets(int number, List<Integer> integerList) {
+//        return Stream.stream().filter(i->(i%2==0))
+//        .forEach(l-> if
+//        integerList.subList(number,integerList.size()).stream()
+//                .filter(k-> (k!=l)));
+//        };
+//
+//     .collect(Collectors.toCollection(ArrayList::new));
+//
+//        ,integerList.subList(number,integerList.size()).stream())
+//        .noneMatch()
+//
+//
+//                .forEach(i-> {
+//                    for (int l:integerList.subList(number,integerList.size()))
+//                         { if (i==l)
+//
+//                    }
+//                })
+//                .collect(Collectors.toList())
+//
+//
+//                .filter(l->
+//                    if ()
+//
+//                    for (i:integerList.stream()
+//                            .filter(i->(i%2==0))
+//                            .collect(Collectors.toList())){
+//                        if l==i
+//                    }
+//                }
+//        if l==
+//                        ;);
         /*integerList.stream()
                 .filter(i->(i%2==0))
                 .collect(Collectors.toList());
